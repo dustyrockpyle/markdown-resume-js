@@ -34,8 +34,6 @@
     "less": "^1.7.1",
     "marked": "*",
     "mustache": "*",
-    "sqwish": "*",
-    "stylus": "*",
     "temp": "*"
   },
   "devDependencies": {
