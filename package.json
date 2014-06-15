@@ -29,10 +29,11 @@
   "author": "Brian Hann",
   "license": "BSD",
   "dependencies": {
-    "commander": "*",
     "cheerio": "*",
-    "mustache": "*",
+    "commander": "*",
+    "less": "^1.7.1",
     "marked": "*",
+    "mustache": "*",
     "sqwish": "*",
     "stylus": "*",
     "temp": "*"
