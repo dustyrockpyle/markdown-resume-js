@@ -10,8 +10,8 @@ var rename = require("gulp-rename");
 var serverport = 8080;
 
 // Set the path to the resume you are building a theme for
-var filename = args.resume || 'resume.html';
-var resume = path.resolve(__dirname, '../../resumes/', filename);
+var filepath = args.resume || 'test/resume.html';
+var resume = path.resolve(__dirname, '../../', filepath);
 
 // Make sure the resume file exists
 if (!fs.existsSync(resume)) {
