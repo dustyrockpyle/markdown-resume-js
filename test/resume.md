@@ -1,49 +1,64 @@
-# Brian Hann
-## Senior Web Developer, Data Nerd
+# Andre Deutmeyer // [github.com/dremonkey](http://github.com/dremonkey)
 
-> [Download PDF](resume.pdf)
-> [me@mysite.com](me@mysite.com)
-> (999) 888-7777
+#### *Berkeley, CA* *(415) 963-2437* *[a.deutmeyer@gmail.com](mailto:a.deutmeyer@gmail.com)* *[linkedin.com/in/andredeutmeyer](http://linkedin.com/in/andredeutmeyer)* *[scriptedbits.com](http://scriptedbits.com)*
 
----
 
-### Profile
+## Technical
 
-Progressively evolve cross-platform ideas before impactful infomediaries. Energistically visualize tactical initiatives before cross-media catalysts for change.
+|                     |                     |
+| ------------------- | ------------------- |
+| ** Strong **        | Javascript, Node/ExpressJS, AngularJS, BackboneJS, Jquery, Wordpress, PHP, SASS/LESS/CSS |
+| ** Knowledgable **  | Famo.us, Coffeescript, Neo4J, MongoDB/Mongoose, MySQL, GIT |
+| ** Basic **         | Android, Python |
 
----
 
-### Skills
+## Software Engineering Experience
 
-* **Web Design**
-  Assertively exploit wireless initiatives rather than synergistic core competencies.
+### Famo.us **Software Engineer** *2014*
 
-* **Interface Design**
-  Credibly streamline mission-critical value with multifunctional functionalities.
+- TODO
 
-* **Project Direction**
-  Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.
+### Angelink **Software Engineer** *2014*
 
----
+- Built [angelink.co](http://angelink.co), a job recommendation application for exploring startup opportunities
+- Architected and built a RESTful API using ```Node/ExpressJS```, Swagger, and a ```Neo4J``` graph database responsible for providing data to a single page client side app developed on ```AngularJS```, ```HTML/CSS3```, and ```SASS```
 
-### Technical
+### Simpoll **Software Engineer** *2014*
 
-1. XHTML
-1. CSS
-1. Javascript
-1. Jquery
-1. PHP
-1. CVS / Subversion
-1. OS X
-1. Windows XP/Vista
-1. Linux
+- In 36 hours, built an easy to use geo-filtered live polling application using ```Node/ExpressJS```, ```Socket.io```, and a ```MongoDB``` database to provide realtime data to an ```AngularJS```, ```HTML/CSS3```, and ```SASS``` client side application
 
----
+### Enswers **Director of Product Development** *2012-2014*
 
-### Experience
+- Developed demo apps using ```AngularJS``` and ```HTML/CSS3``` running on a ```NodeJS``` static server for the sales team
+- Managed a team of engineers working on an analytics application for a stealth Direct Response Ad startup
+- Consulted with Samsung America (SISA) and other clients to define product features, user stories, technical specifications, and documentation to be shared with our engineering team
 
-**Microsoft** : *Principal and Creative Lead* __2004-2005__
-  Intrinsicly transform flexible manufactured products without excellent intellectual capital. Energistically evisculate orthogonal architectures through covalent action items. Assertively incentivize sticky platforms without synergistic materials.
+### Enswers **Software Engineer and Project Manager** *2010-2012*
 
-**International Business Machines (IBM)** : *Lead Web Designer* __2001-2004__
-  Globally re-engineer cross-media schemas through viral methods of empowerment. Proactively grow long-term high-impact human capital and highly efficient innovation. Intrinsicly iterate excellent e-tailers with timely e-markets.
+- Migrated [soompi.com](http://soompi.com) from ```Kohana``` to ```Wordpress```, and expanded it into a content network spanning 4 languages
+- Scaled [soompi.com](http://soompi.com) as traffic increased ~50% to 4.5 million uniques and 30 million pageviews per month
+
+### Nomad Connection **Software Engineer and Product Lead** *2009-2010*
+
+- Developed and scaled Zimly, an Android app - after 6 months we had a 4 star rating and 250,000+ installs
+
+
+## Work Experience
+
+### Chungdahm Learning **Teacher** *2007-2009*
+
+- Taught essay writing, critical thinking, mock trial, debate, and set up a Wordpress blog network for my students
+
+### Apogee Search **SEO Consultant** *2006-2007*
+
+- Consulted with clients to define strategies used to improve their SEO ranking and SEM conversion rate
+
+
+## Education
+
+### Hack Reactor *2014*
+- Advanced Software Engineering - Immersive
+
+### University of Texas at Austin *2002-2007*
+- BA in Plan II, Government, Asian Studies
+
