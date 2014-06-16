@@ -42,7 +42,7 @@ compileLess = (templateDir, file, callback) ->
 generate = (sourceFile, userOpts, callback) ->
   opts =
     format: 'html'
-    templateDir: path.join(installDir, 'templates', 'default')
+    templateDir: path.join(installDir, 'templates', 'github')
     template: ''
 
   # No third argument, callback must be in the second position
