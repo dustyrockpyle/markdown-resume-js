@@ -48,8 +48,9 @@ The generated files will be put in the same directory as your source file.
 
 The recommended way of building your own template is to copy one of the following directories ```templates/_unstyled``` or ```templates/_advanced```, rename it, and then start hacking away. 
 
-- ```templates/_unstyled``` is a barebones HTML/LESS starter template. Nothing tricky in there.
-- ```templates/_advanced``` is also a barebones HTML/LESS starter template, however it includes a Gulp build process to make template development dead simple. You tell it which resume file to load at runtime and Gulp takes care of live-reloading your resume if you change your template LESS files. See the **README.md** file in ```templates/_advanced``` for more information.
+```templates/_unstyled``` is a barebones HTML/LESS starter template. Nothing tricky in there.
+
+```templates/_advanced``` is also a barebones HTML/LESS starter template, however it includes a Gulp build process to make template development dead simple. You tell it which resume file to load at runtime and Gulp takes care of live-reloading your resume if you change your template LESS files. See the **README.md** file in ```templates/_advanced``` for more information.
 
 ## Acknowledgments
 
