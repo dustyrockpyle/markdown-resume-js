@@ -10,7 +10,6 @@ md2resume = require path.join(lib, 'markdown-resume')
 program
   .usage('[options] [source markdown file]')
   .option('--pdf', 'Output as PDF')
-  # .option('-t, --template <template>', 'Specify the template html file', path.join(__dirname, '../assets/templates/default.html'))
   .option('-t, --templateDir <templateDir>', 'Specify the template directory', path.join(__dirname, '../templates/default'))
   .parse(process.argv)
 

@@ -43,14 +43,15 @@ generate = (sourceFile, userOpts, callback) ->
   opts =
     format: 'html'
     templateDir: path.join(installDir, 'templates', 'default')
-
-  opts.template = path.join(opts.templateDir, 'index.html')
+    template: ''
 
   # No third argument, callback must be in the second position
   if !callback?
     callback = userOpts
 
   opts.extend userOpts
+
+  opts.template = opts.template || path.join(opts.templateDir, 'index.html')
 
   # Setup the LESS Parser
   lessParser = new less.Parser
@@ -75,6 +76,8 @@ generate = (sourceFile, userOpts, callback) ->
 
   # Load the template file
   template = fs.readFileSync opts.template, 'utf8'
+
+  # console.log opts.template
 
   compileLess opts.templateDir, 'resume.less', (err, css) ->
     if err?
