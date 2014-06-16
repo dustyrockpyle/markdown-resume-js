@@ -1,0 +1,22 @@
+@import "_partials/_variables";
+@import "_partials/_normalize";
+@import "_partials/_mixins";
+@import "_partials/_pdf";
+
+/* clearfix */
+.container:before,
+.container:after {
+    content:"";
+    display:table;
+}
+.container:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.container {
+    zoom:1;
+}
+
+body {
+    color: #444;
+}
