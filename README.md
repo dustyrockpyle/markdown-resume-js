@@ -19,13 +19,13 @@ The generated files will be put in the same directory as your source file.
     md2resume ../resumes/2014-06-06.md
 
     # Generate HTML file and specify a template
-    md2resume ../resumes/2014-06-06.md -t ../templates/_advanced
+    md2resume ../resumes/2014-06-06.md -t ../templates/github
 
     # Generate PDF file
     md2resume --pdf my-resume-file.md
 
     # Generate PDF file and specify a template
-    md2resume --pdf my-resume-file.md -t ../templates/_advanced
+    md2resume --pdf my-resume-file.md -t ../templates/github
 
 ## Use as a node module
 
