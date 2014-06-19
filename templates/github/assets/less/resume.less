@@ -1,0 +1,165 @@
+@import "_partials/_variables";
+@import "_partials/_normalize";
+@import "_partials/_mixins";
+@import "_partials/_pdf";
+
+/* clearfix */
+.container:before,
+.container:after {
+  content:"";
+  display:table;
+}
+.container:after {
+  clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.container {
+  zoom:1;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px 0 40px;
+}
+
+body {
+  color: @textColor;
+  line-height: 1.5em;
+  font-family: "Helvetica Neau", Arial, sans-serif;
+}
+
+a {
+  color: @linkColor;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+code {
+  display:inline-block;
+  padding: 0px 5px 0px;
+  border: 1px solid #dddddd;  
+  // font-family: Monaco, "DejaVu Sans Mono", "Courier New", monospace;
+  font-family: "Helvetica Neau", Arial, sans-serif;
+  text-decoration: underline;
+  font-size: 0.85em;
+  background: #f8f8f8;
+  margin: 1px 0 1px 0;
+
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+
+// ## Shared
+h1, h2, h3, h4, ul {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+// ## Name
+h1 {
+  font-size: 22px;
+  font-weight: 300;
+  margin: 1em 0 0;
+
+  a {
+    color: #666
+  }
+}
+
+// ## Contact Info
+h4 {
+  font-weight: normal;
+  font-size: 14px;
+  margin: 0;
+  padding-bottom: 0.5em;
+  
+
+  em:after {
+    content: "\2022";
+    font-size: 14px;
+    position: relative;
+    padding-left: 5px;
+    padding-right: 2px;
+    // top: 1px;
+  }
+
+  em:last-child:after {
+    content: "";
+  }
+
+  em {
+    font-style: normal;
+  }
+}
+
+// ## Section Headers
+h2 {
+  color: @sectionTitleColor;
+  border-bottom: 1px solid #dddddd;
+  font-size: 18px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+// ## Job
+h3 {
+  margin: 1em 0 0;
+  font-size: 16px;
+  color: @textColor;
+  
+  // job title and date
+  strong {
+    font-size: 16px;
+    font-weight: normal;
+    color: #666;
+  }
+
+  // date
+  em {
+    font-size: 14px;
+    float: right;
+    font-weight: bold;
+    font-style: normal;
+    color: #666;
+  }
+}
+
+// ## Job Summary
+ul {
+  font-size: 15px;
+  padding-left: 32px;
+  margin: 0;
+
+  li {
+    margin: 0;
+    text-align: justify;
+  }
+}
+
+// ## Skills
+table {
+  width: 100%;
+
+  td {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+
+  tr:nth-child(1) {
+    background: #e5e5e5;
+  }
+
+  tr:nth-child(2) {
+    background: #efefef;
+  }
+
+  tr:nth-child(3) {
+    background: #f5f5f5;
+  }
+}

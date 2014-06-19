@@ -1,6 +1,6 @@
 // Accent Colors
-@blue:              #049CDB;
-@blueDark:          #0064CD;
+@blue:              #4183c4;
+@blueDark:          #325d72;
 @green:             #46a546;
 @red:               #9d261d;
 @yellow:            #ffc40d;
@@ -9,9 +9,8 @@
 @purple:            #7a43b6;
 
 // Color Scheme
-@baseColor:         @blue;                  // Set a base color
+@baseColor:         @blueDark;              // Set a base color
 @complement:        spin(@baseColor, 180);  // Determine a complementary color
-@linkColor:         @blue;
 @split1:            spin(@baseColor, 158);  // Split complements
 @split2:            spin(@baseColor, -158);
 @triad1:            spin(@baseColor, 135);  // Triads colors
@@ -20,3 +19,9 @@
 @tetra2:            spin(@baseColor, -90);
 @analog1:           spin(@baseColor, 22);   // Analogs colors
 @analog2:           spin(@baseColor, -22);
+
+// Color Assignments
+@textColor: #333;
+@linkColor: @blue;
+@h3Color: @blueDark;
+@sectionTitleColor: @blueDark;

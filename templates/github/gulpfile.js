@@ -13,6 +13,8 @@ var serverport = 8080;
 var filepath = args.resume || 'test/resume.html';
 var resume = path.resolve(__dirname, '../../', filepath);
 
+console.log('Using resume at ' + resume);
+
 // Make sure the resume file exists
 if (!fs.existsSync(resume)) {
   throw new Error(resume + ' does not exists. Stopping...');
@@ -27,7 +29,7 @@ gulp.task('less', function() {
   return gulp.src('assets/less/resume.less')
     .pipe(less())
     .on('error', console.log)
-    .pipe(gulp.dest('.tmp'))
+    .pipe(gulp.dest('.tmp/assets'))
     .pipe(connect.reload());
 });
 
@@ -39,7 +41,7 @@ gulp.task('html', function() {
 });
 
 gulp.task('watch', ['html','less'], function() {
-  gulp.watch('assets/less/{*,/}*.less', ['less']);
+  gulp.watch('assets/less/**/*.less', ['less']);
   gulp.watch(resume, ['html']);
 });
 
