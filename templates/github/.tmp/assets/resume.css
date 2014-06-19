@@ -365,6 +365,20 @@ th {
 body.pdf {
   color: black;
 }
+body.pdf h1,
+body.pdf h2,
+body.pdf h3,
+body.pdf h4,
+body.pdf h5,
+body.pdf h6,
+body.pdf p,
+body.pdf strong,
+body.pdf em {
+  color: black;
+}
+body.pdf h1 a {
+  color: black;
+}
 body.pdf .container {
   padding: 0 0;
 }
