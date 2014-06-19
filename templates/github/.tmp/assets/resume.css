@@ -501,7 +501,7 @@ table {
   width: 100%;
 }
 table td {
-  font-size: 14px;
+  font-size: 0.8em;
   padding: 0 15px;
 }
 table tr:nth-child(1) {
