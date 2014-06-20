@@ -28,6 +28,7 @@ body {
   color: @textColor;
   line-height: 1.5em;
   font-family: "Helvetica Neau", Arial, sans-serif;
+  font-size: 0.875em;
 }
 
 a {
@@ -46,7 +47,7 @@ code {
   // font-family: Monaco, "DejaVu Sans Mono", "Courier New", monospace;
   font-family: "Helvetica Neau", Arial, sans-serif;
   text-decoration: underline;
-  font-size: 0.85em;
+  font-size: 1em;
   background: #f8f8f8;
   margin: 1px 0 1px 0;
 
@@ -63,9 +64,9 @@ h1, h2, h3, h4, ul {
 
 // ## Name
 h1 {
-  font-size: 22px;
+  font-size: 1.65em;
   font-weight: 300;
-  margin: 1em 0 0;
+  margin: 1em 0 0.15em;
 
   a {
     color: #666
@@ -75,14 +76,14 @@ h1 {
 // ## Contact Info
 h4 {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 1em;
   margin: 0;
   padding-bottom: 0.5em;
   
 
   em:after {
     content: "\2022";
-    font-size: 14px;
+    font-size: 1em;
     position: relative;
     padding-left: 5px;
     padding-right: 2px;
@@ -102,27 +103,28 @@ h4 {
 h2 {
   color: @sectionTitleColor;
   border-bottom: 1px solid #dddddd;
-  font-size: 18px;
-  padding-top: 0;
-  padding-bottom: 0;
+  font-size: 1.35em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 0.5em;
 }
 
 // ## Job
 h3 {
-  margin: 1em 0 0;
-  font-size: 16px;
+  margin: 0.85em 0 0;
+  font-size: 1.1em;
   color: @textColor;
   
   // job title and date
   strong {
-    font-size: 16px;
+    font-size: 1em;
     font-weight: normal;
     color: #666;
   }
 
   // date
   em {
-    font-size: 14px;
+    font-size: 0.9em;
     float: right;
     font-weight: bold;
     font-style: normal;
@@ -132,7 +134,7 @@ h3 {
 
 // ## Job Summary
 ul {
-  font-size: 15px;
+  font-size: 1em;
   padding-left: 32px;
   margin: 0;
 
@@ -147,7 +149,7 @@ table {
   width: 100%;
 
   td {
-    font-size: 14px;
+    font-size: 0.95em;
     padding: 0 15px;
   }
 
@@ -161,5 +163,27 @@ table {
 
   tr:nth-child(3) {
     background: #f5f5f5;
+  }
+}
+
+// ## Education
+h3 {
+  strong em {
+    color: #666;
+    float: none;
+    font-size: 1em;
+    font-weight: normal;
+
+    &:before {
+      content: "\2022";
+      font-size: 1em;
+      position: relative;
+      padding-left: 0px;
+      padding-right: 5px;
+    }
+  }
+
+  em {
+    float: right;
   }
 }
