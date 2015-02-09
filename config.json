@@ -1,0 +1,6 @@
+{
+	"input": "test/resume.md",
+	"output": "test/resume.html",
+	"templateDir": "templates/modern",
+	"port": 9050
+}
